@@ -1,10 +1,7 @@
 #pragma once
 
-class enemy // needs implementation
+#include "actor.h"
+
+class enemy : public actor
 {
-  public:
-    unsigned int getHealth();
-    void setHealth(const unsigned int newHealth);
-  private:
-    unsigned int health;
 };
