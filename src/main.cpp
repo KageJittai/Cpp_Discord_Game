@@ -3,7 +3,7 @@
 
 #include "player.h"
 
-template<typename T>
+template<typename T> // Maybe we should move this to a dedicated header for stuff like this?
 T prompt(std::string message) {
     std::cout << message;
     T value;
