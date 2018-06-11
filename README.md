@@ -12,6 +12,7 @@ We developped a top-secret, state-of-the-art compression technology to help us i
 Every Pull Request(PR) must:
 * Compile; (Travis-CI checks this by running the makefile on each PR)
 * Not crash the game;
+* Must add to the game in some way
 
 # How to Participate
 1. Get a GitHub account.
