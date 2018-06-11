@@ -10,11 +10,9 @@ We developped a top-secret, state-of-the-art compression technology to help us i
 
 # Rules
 Every Pull Request(PR) must:
-* Have between 1 and 20 add lines;
-* Have no more than 8 remove lines; (note: altering an existing line counts as both removing and adding a line.)
 * Compile; (Travis-CI checks this by running the makefile on each PR)
 * Not crash the game;
-* Be older by at least one day from your previous PR, or be after 2 other PRs have been accepted.
+* Must add to the game in some way
 
 # How to Participate
 1. Get a GitHub account.
